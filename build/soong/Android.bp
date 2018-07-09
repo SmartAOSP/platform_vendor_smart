@@ -1,0 +1,7 @@
+bootstrap_go_package {
+    name: "soong-smart",
+    pkgPath: "smart/soong/android",
+    srcs: [
+        "android/variable.go",
+    ],
+}

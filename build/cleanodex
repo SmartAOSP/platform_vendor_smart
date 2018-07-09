@@ -1,0 +1,4 @@
+#!/bin/bash
+rm -rf ${ANDROID_PRODUCT_OUT}/system ${ANDROID_PRODUCT_OUT}/root ${ANDROID_PRODUCT_OUT}/recovery
+rm -f ${ANDROID_PRODUCT_OUT}/obj/ETC/system_build_prop_intermediates/build.prop
+
